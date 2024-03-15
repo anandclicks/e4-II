@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+.main {
+    /* background-color: #d8d8d8; */
+}
+.header {
+    height: 100px;
+}
+.shadow {
+    box-shadow: 0px 5px 10px #c7c7c7;
+}
+.logo img {
+    height: 70%;
+    object-fit: cover;
+}
+span {
+    color: #005F9D;
+}
+.content {
+    display: flex ;
+    justify-content: space-evenly;
+    height: calc(100vh - 170px);
+}
+.content::-webkit-scrollbar {
+    display: none;
+}
+/* card css  */
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.card{
+    height: 260px;
+    width: 580px;
+    border: none;
+    box-shadow: 0px 0px 10px #c7c7c7;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    padding: 50px;
+}
+/* .card:hover {
+    border: 2px solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: #D01543;
+    border-bottom-color: #005F9D;
+} */
+.card::after {
+    height: 90%;
+    width: 90%;
+    background-color: #3498DB   ;
+    content: "";
+    position: absolute;
+    top: -170px;
+    left: 350px;
+    border-radius: 50%;
+}
+.dips p {
+    font-size: 19px;
+    font-weight: 500;
+}
+.card:hover {
+    scale: 1.01;
+}
+.title h1 {
+    color: #005F9D;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title i {
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 999;
+    position: relative;
+}
+.title i:hover {
+    color: #000;
+}
+.dips i {
+    color: #D01543;
+}
+.cardBtn {
+    background-color: #E74C3C !important;
+}
+/* sidebar  */
+/* .sidebar {
+    background: linear-gradient( #d01544a4, #005e9d98);
+    box-shadow: 0px 0px 10px #c7c7c7;
+    height: calc(100vh - 160px);
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dipscription css */
+.dipsMain {
+    height: 100%;
+    width: 100%;
+    background-color: #9c9696;
+}
+.nav-2 {
+    height: 170px;
+    background-color: #e45478;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .header {
+        height: 110px;
+    }
+    .navText{
+        font-size: 18px;
+        text-align: center;
+    }
+  .content {
+    height: inherit;
+   overflow: visible;
+  }
+  .card{
+    height: 320px;
+    width: 320px;
+    border: none;
+    box-shadow: 0px 0px 10px #c7c7c7;
+    cursor: pointer;
+    transition: 0.2s;
+    overflow: hidden;
+    position: relative;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: relative;
+    padding: 50px;
+}
+.card::after {
+    height: 90%;
+    width: 90%;
+    content: "";
+    position: absolute;
+    top: -190px;
+    left: 220px;
+    border-radius: 50%;
+}
+
+}
+.dipsContent h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-device-width: 481px) and (max-device-width: 768px) {
+    .header {
+        height: 110px;
+    }
+    .navText{
+        font-size: 18px;
+        text-align: center;
+    }
+  .content {
+    height: inherit;
+   overflow: visible;
+  }
+
+  /* form css  */
+  
+@media (max-width: 768px) {
+    
+}
+
+
+}
